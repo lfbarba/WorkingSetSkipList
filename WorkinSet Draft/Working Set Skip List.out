@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Searching costs}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Cost of searching in Splay-trees}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Cost of searching in Iacono's working set structure}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Working set skip lists}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Searching in ws-lists}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Working set property}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Maintaining invariants in a ws-list}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Insert and delete in a ws-list}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Two way comparisons}{}% 10
+\BOOKMARK [1][-]{section.5}{Lower Bounds}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Static optimal structures}{section.5}% 12

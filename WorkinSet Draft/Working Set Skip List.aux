@@ -1,0 +1,90 @@
+\relax 
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\citation{adelsonvelskii1963algorithm}
+\citation{guibas1978dichromatic}
+\citation{sleator1985self}
+\citation{hu1971optimal}
+\citation{knuth1971optimum}
+\citation{shannon1948mathematical}
+\citation{sleator1985self}
+\citation{sleator1985self}
+\citation{iacono2001alternatives}
+\citation{bose2008dynamic}
+\citation{iacono2000improved}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\citation{iacono2001alternatives}
+\citation{bose2010layered}
+\citation{bose2012distribution}
+\citation{sleator1985self}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Searching costs}{2}{section.2}}
+\newlabel{section:Comparing searching costs}{{2}{2}{Searching costs\relax }{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Cost of searching in Splay-trees}{2}{subsection.2.1}}
+\citation{iacono2001alternatives}
+\citation{guibas1978dichromatic}
+\newlabel{lemma:Access lemma}{{1}{3}{\relax }{lemma.1}{}}
+\newlabel{lemma:Splay-trees cost}{{2}{3}{\relax }{lemma.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Cost of searching in Iacono's working set structure}{3}{subsection.2.2}}
+\citation{pugh1990skip}
+\newlabel{lemma:Iacono's structure cost}{{3}{4}{\relax }{lemma.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Working set skip lists}{4}{section.3}}
+\newlabel{section:New structure}{{3}{4}{Working set skip lists\relax }{section.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip A ws-list\xspace  with 12 elements constructed by picking $a = 1.75$, i.e., $\varepsilon = 1/4$. List $W$ keeps nodes sorted by the working set size of their keys. Nodes in each $L_i$ are sorted by their key. List $L_i$ consists of every element in $L_{i+1}$ with odd rank plus all nodes representing elements whose working set size is smaller than $a^i$. Elements in blue in list $L_{i+1}$ have working set size smaller than $a^i$ and need to be copied into $L_i$.}}{6}{figure.1}}
+\newlabel{fig:Wlist}{{1}{6}{\small A \wlist with 12 elements constructed by picking $a = 1.75$, i.e., $\varepsilon = 1/4$. List $W$ keeps nodes sorted by the working set size of their keys. Nodes in each $L_i$ are sorted by their key. List $L_i$ consists of every element in $L_{i+1}$ with odd rank plus all nodes representing elements whose working set size is smaller than $a^i$. Elements in blue in list $L_{i+1}$ have working set size smaller than $a^i$ and need to be copied into $L_i$}{figure.1}{}}
+\newlabel{lemma:Properties of Level rebuild}{{4}{6}{\relax }{lemma.4}{}}
+\newlabel{lemma:Size at level zero}{{5}{7}{\relax }{lemma.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Searching in ws-lists\xspace  }{7}{subsection.3.1}}
+\newlabel{lemma:Visited Nodes}{{6}{7}{\relax }{lemma.6}{}}
+\newlabel{corollary:SearchCost}{{1}{8}{\relax }{corollary.1}{}}
+\newlabel{step:equality}{{7}{8}{Searching in \wlists \relax }{ALC@unique.7}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Given an element $x$ of $S$, algorithm to search for $x$ in a ws-list\xspace  with the Halving property\xspace  .}}{8}{algorithm.1}}
+\newlabel{alg:Working set skip list Search}{{1}{8}{Searching in \wlists \relax }{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Working set property}{8}{subsection.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip A search for element $8$ in a ws-list\xspace  . To the left, the search path is depicted in red and the first node found that represents $8$ is shown in gray. To the right, the promotion of $8$ to the top by creating three nodes shown in blue. Each of these nodes is spliced, on each level, to the right of the level-maximum elements in this search path. The node representing $8$ in $W$ is pushed to the beginning of list.}}{9}{figure.2}}
+\newlabel{fig:Promotion}{{2}{9}{\small A search for element $8$ in a \wlist . To the left, the search path is depicted in red and the first node found that represents $8$ is shown in gray. To the right, the promotion of $8$ to the top by creating three nodes shown in blue. Each of these nodes is spliced, on each level, to the right of the level-maximum elements in this search path. The node representing $8$ in $W$ is pushed to the beginning of list}{figure.2}{}}
+\newlabel{lemma:Layer property}{{7}{9}{\relax }{lemma.7}{}}
+\newlabel{corollary:Cost of search}{{2}{9}{\relax }{corollary.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Maintaining invariants in a ws-list\xspace  }{9}{subsection.3.3}}
+\newlabel{lemma:Amortized cost}{{8}{10}{\relax }{lemma.8}{}}
+\newlabel{eq:Size before}{{1}{10}{Maintaining invariants in a \wlist \relax }{equation.3.1}{}}
+\newlabel{eq:Size after}{{2}{10}{Maintaining invariants in a \wlist \relax }{equation.3.2}{}}
+\newlabel{eq:amotization}{{3}{10}{Maintaining invariants in a \wlist \relax }{equation.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Insert and delete in a ws-list\xspace  }{11}{subsection.3.4}}
+\newlabel{theorem:Summary of properties}{{1}{12}{\relax }{theorem.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Two way comparisons}{12}{section.4}}
+\newlabel{section:2-way comparisons}{{4}{12}{Two way comparisons\relax }{section.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Lower Bounds}{12}{section.5}}
+\newlabel{section:Lower Bounds}{{5}{12}{Lower Bounds\relax }{section.5}{}}
+\citation{kraftsInequality}
+\citation{bent1985biased}
+\bibstyle{alpha}
+\bibdata{biblio}
+\newlabel{theorem:Lower bound}{{2}{13}{\relax }{theorem.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Static optimal structures}{13}{subsection.5.1}}
+\bibcite{adelsonvelskii1963algorithm}{AL63}
+\bibcite{bose2010layered}{BDDH10}
+\bibcite{bose2008dynamic}{BDL08}
+\bibcite{bose2012distribution}{BHM12}
+\bibcite{bent1985biased}{BST85}
+\bibcite{guibas1978dichromatic}{GS78}
+\bibcite{hu1971optimal}{HT71}
+\bibcite{iacono2000improved}{Iac00}
+\bibcite{iacono2001alternatives}{Iac01}
+\bibcite{knuth1971optimum}{Knu71}
+\bibcite{kraftsInequality}{Kra49}
+\bibcite{pugh1990skip}{Pug90}
+\bibcite{sleator1985self}{ST85}
+\bibcite{shannon1948mathematical}{SW48}

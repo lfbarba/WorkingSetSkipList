@@ -1,0 +1,79 @@
+\begin{thebibliography}{BDDH10}
+
+\bibitem[AL63]{adelsonvelskii1963algorithm}
+M~AdelsonVelskii and Evgenii~Mikhailovich Landis.
+\newblock An algorithm for the organization of information.
+\newblock Technical report, DTIC Document, 1963.
+
+\bibitem[BDDH10]{bose2010layered}
+Prosenjit Bose, Karim Dou{\"\i}eb, Vida Dujmovi{\'c}, and John Howat.
+\newblock Layered working-set trees.
+\newblock In {\em LATIN 2010: Theoretical Informatics}, pages 686--696.
+  Springer, 2010.
+
+\bibitem[BDL08]{bose2008dynamic}
+Prosenjit Bose, Karim Dou{\"\i}eb, and Stefan Langerman.
+\newblock Dynamic optimality for skip lists and b-trees.
+\newblock In {\em Proceedings of the ACM-SIAM symposium on Discrete
+  algorithms}, pages 1106--1114. Society for Industrial and Applied
+  Mathematics, 2008.
+
+\bibitem[BHM12]{bose2012distribution}
+Prosenjit Bose, John Howat, and Pat Morin.
+\newblock A distribution-sensitive dictionary with low space overhead.
+\newblock {\em Journal of Discrete Algorithms}, 10:140--145, 2012.
+
+\bibitem[BST85]{bent1985biased}
+Samuel~W Bent, Daniel~D Sleator, and Robert~E Tarjan.
+\newblock Biased search trees.
+\newblock {\em SIAM Journal on Computing}, 14(3):545--568, 1985.
+
+\bibitem[GS78]{guibas1978dichromatic}
+Leo~J Guibas and Robert Sedgewick.
+\newblock A dichromatic framework for balanced trees.
+\newblock In {\em Foundations of Computer Science, 1978., 19th Annual Symposium
+  on}, pages 8--21. IEEE, 1978.
+
+\bibitem[HT71]{hu1971optimal}
+Te~C Hu and Alan~C Tucker.
+\newblock Optimal computer search trees and variable-length alphabetical codes.
+\newblock {\em SIAM Journal on Applied Mathematics}, 21(4):514--532, 1971.
+
+\bibitem[Iac00]{iacono2000improved}
+John Iacono.
+\newblock Improved upper bounds for pairing heaps.
+\newblock In {\em Algorithm Theory-SWAT 2000}, pages 32--45. Springer, 2000.
+
+\bibitem[Iac01]{iacono2001alternatives}
+John Iacono.
+\newblock Alternatives to splay trees with o (log n) worst-case access times.
+\newblock In {\em Proceedings of the ACM-SIAM symposium on Discrete
+  algorithms}, pages 516--522. Society for Industrial and Applied Mathematics,
+  2001.
+
+\bibitem[Knu71]{knuth1971optimum}
+Donald~E. Knuth.
+\newblock Optimum binary search trees.
+\newblock {\em Acta informatica}, 1(1):14--25, 1971.
+
+\bibitem[Kra49]{kraftsInequality}
+Leon~Gordon Kraft.
+\newblock {\em A device for quantizing, grouping, and coding
+  amplitude-modulated pulses}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 1949.
+
+\bibitem[Pug90]{pugh1990skip}
+William Pugh.
+\newblock Skip lists: a probabilistic alternative to balanced trees.
+\newblock {\em Communications of the ACM}, 33(6):668--676, 1990.
+
+\bibitem[ST85]{sleator1985self}
+Daniel~Dominic Sleator and Robert~Endre Tarjan.
+\newblock Self-adjusting binary search trees.
+\newblock {\em Journal of the ACM (JACM)}, 32(3):652--686, 1985.
+
+\bibitem[SW48]{shannon1948mathematical}
+Claude~Elwood Shannon and Warren Weaver.
+\newblock A mathematical theory of communication, 1948.
+
+\end{thebibliography}
